@@ -4,60 +4,106 @@ html {
 
 body {
   font-size: 16px;
+  background-color: #dedede;
 }
 
 p {
-  font-family: "Quattrocento", Georgia, "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
+  color: #004491;
   line-height: 1.4em;
+  font-size: 20px;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
-  font-family: "Oswald", Verdana, Arial, sans-serif;
-  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
-  font-size: 3.052em;
+  font-size: 45px;
   word-spacing: 0.5em;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
-  font-family: "Oswald", Verdana, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 2.441em;
-  word-spacing: 0.2em;
-  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #004491;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 25px;
+  word-spacing: 0.5em;
   text-align: left;
-  padding-top: 15px;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-address {
-  font-family: "Quattrocento", Georgia, "Times New Roman" serif;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #004491;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #28ffa5;
   text-align: center;
-}
-
-address a {
-  font-weight: bold;
-  font-size: 1.25em;
-  color: #4f3674;
+  padding: 14px 16px;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
-address a:hover {
-  background-color: #d6a800;
+.active {
   text-decoration: underline;
 }
 
-address a:visited {
-  text-decoration: none;
-  color: #0d0120;
+.main {
+  margin-top: 75px;
 }
 
-.sentence {
-  font-style: italic;
+.heading {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 35px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.intro {
-  text-indent: 0.2em;
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
