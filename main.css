@@ -41,40 +41,6 @@ h2 {
   margin-right: auto;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #004491;
-  position: fixed;
-  top: 0%;
-  width: 100%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  color: #28ffa5;
-  text-align: center;
-  padding: 14px 16px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-li a:hover {
-  color: #ffffff;
-}
-
-.active {
-  text-decoration: underline;
-}
-
 .main {
   margin-top: 75px;
 }
@@ -86,18 +52,12 @@ li a:hover {
   font-size: 35px;
   padding-left: 20px;
   padding-top: 5px;
-  padding-bottom: 5px;
+  float: left;
 }
 
 .column {
   float: left;
   width: 33.33%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 img {
@@ -121,4 +81,30 @@ img {
 #about-image {
   max-height: 300px;
   width: auto;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #004491;
+  border-bottom: 3px solid #28ffa5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#navbar a {
+  display: block;
+  color: #28ffa5;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+#navbar a:hover {
+  background-color: #28ffa5;
+  color: #ffffff;
+}
+
+#navbar a.active {
+  text-decoration: underline;
 }
